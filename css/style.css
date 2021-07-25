@@ -3,6 +3,9 @@
     font-size: 3.5rem;
     line-height: 1.2;
   }
+  #main {
+    margin: 0;
+  }
 }
 #main {
   margin: 30px auto;
@@ -11,8 +14,9 @@
   background: #aaa;
 }
 
-@media (max-width: 460px){
-  #main {
-    margin: 0;
-  }
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
